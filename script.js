@@ -31,7 +31,7 @@ function init() {
 			container.addChild(heart);
 		}
 
-  var text = new createjs.Text("the longer I'm with you\nthe more I love you", "bold 24px Arial", "#312");
+  var text = new createjs.Text("The Longer I'm With you\n The More I Love You Kiran", "bold 24px Arial", "#312");
   text.textAlign = "center";
   text.x = w / 2;
   text.y = h / 2 - text.getMeasuredLineHeight();
@@ -85,5 +85,6 @@ function tick(event) {
   // draw the updates to stage:
   stage.update(event);
 }
+
 
 init();
